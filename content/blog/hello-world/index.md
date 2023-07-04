@@ -1,6 +1,6 @@
 ---
 title: deployてすと記事
-date: "2023/7/3"
+date: "2023-07-03"
 description: "記事のてすと"
 ---
 
