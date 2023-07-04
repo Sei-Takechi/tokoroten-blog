@@ -287,6 +287,8 @@ a:focus {
 .bio {
   display: flex;
   margin-bottom: var(--spacing-16);
+  /* writtenbyを垂直方向に揃える */
+  align-items: center;
 }
 
 .bio p {

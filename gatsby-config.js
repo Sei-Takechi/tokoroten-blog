@@ -9,11 +9,11 @@
  */
 module.exports = {
   siteMetadata: {
-    title: `ところてんブログ`,
-    // author: {
-    //   name: ``,
-    //   summary: `who lives and works in San Francisco building useful things.`,
-    // },
+    title: `tokoroten-blog`,
+    author: {
+      name: `tokoroten`,
+      // summary: `who lives and works in San Francisco building useful things.`,
+    },
     // description: `A starter blog demonstrating what Gatsby can do.`,
     // siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
     // social: {
