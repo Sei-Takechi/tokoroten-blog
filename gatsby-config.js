@@ -12,9 +12,9 @@ module.exports = {
     title: `tokoroten-blog`,
     author: {
       name: `tokoroten`,
-      summary: `学習したことを出力する場所です`,
+      // summary: `学習したことを出力する場所です`,
     },
-    description: `学習したことを出力する場所です`,
+    // description: `学習したことを出力する場所です`,
     siteUrl: `https://tokoroten-blog.com/`,
   },
   plugins: [

@@ -1,5 +1,6 @@
 import * as React from "react"
 import { Link, graphql } from "gatsby"
+import moment from "moment"
 
 import Bio from "../components/bio"
 import Layout from "../components/layout"
@@ -20,7 +21,7 @@ const BlogPostTemplate = ({
       >
         <header>
           <h1 itemProp="headline">{post.frontmatter.title}</h1>
-          <p>{post.frontmatter.date}</p>
+          <p>{moment(post.frontmatter.date).format(`YYYY年MM月DD日 HH:mm`)}</p>
         </header>
         <section
           dangerouslySetInnerHTML={{ __html: post.html }}
