@@ -12,13 +12,10 @@ module.exports = {
     title: `tokoroten-blog`,
     author: {
       name: `tokoroten`,
-      // summary: `who lives and works in San Francisco building useful things.`,
+      summary: `学習したことを出力する場所です`,
     },
-    // description: `A starter blog demonstrating what Gatsby can do.`,
-    // siteUrl: `https://gatsbystarterblogsource.gatsbyjs.io/`,
-    // social: {
-    //   twitter: `kylemathews`,
-    // },
+    description: `学習したことを出力する場所です`,
+    siteUrl: `https://tokoroten-blog.com/`,
   },
   plugins: [
     `gatsby-plugin-image`,
